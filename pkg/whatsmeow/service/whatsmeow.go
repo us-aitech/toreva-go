@@ -1205,6 +1205,7 @@ func (mycli *MyClient) myEventHandler(rawEvt interface{}) {
 
 		postMap["data"] = dataMap
 	case *events.Message:
+		evt.Message = unwrapAudioSticker(evt.Message)
 		doWebhook = true
 		postMap["event"] = "Message"
 		// Message received
@@ -1624,6 +1625,10 @@ func (mycli *MyClient) myEventHandler(rawEvt interface{}) {
 				messageMap, ok := dataMap["Message"].(map[string]interface{})
 				if !ok {
 					messageMap = make(map[string]interface{})
+				}
+
+				if sticker != nil {
+					mycli.attachStickerAudio(downloadCtx, messageMap, evt.Info.ID, sticker)
 				}
 
 				// Only process storage if download was successful
