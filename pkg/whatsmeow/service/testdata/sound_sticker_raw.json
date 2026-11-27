@@ -1,0 +1,45 @@
+{
+  "audioStickerMessage": {
+    "message": {
+      "stickerMessage": {
+        "audioMessage": {
+          "URL": "https://mmg.whatsapp.net/v/t62.fake/sticker-audio.enc",
+          "mimetype": "audio/mp4",
+          "fileSHA256": "ERERERERERERERERERERERERERERERERERERERERERE=",
+          "fileLength": "163525",
+          "seconds": 10,
+          "mediaKey": "ERERERERERERERERERERERERERERERERERERERERERE=",
+          "fileEncSHA256": "ERERERERERERERERERERERERERERERERERERERERERE=",
+          "directPath": "/v/t62.fake/sticker-audio.enc",
+          "mediaKeyTimestamp": "1795745390",
+          "contextInfo": {
+            "mediaDomainInfo": {
+              "mediaKeyDomain": "MEDIA_KEY_DOMAIN_E2EE",
+              "e2EeMediaKey": "ERERERERERERERERERERERERERERERERERERERERERE="
+            }
+          },
+          "streamingSidecar": "ERERERERERERERERERERERERERERERERERERERER"
+        },
+        "URL": "https://mmg.whatsapp.net/v/t62.fake/sticker.enc",
+        "fileSHA256": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI=",
+        "fileEncSHA256": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI=",
+        "mediaKey": "IiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI=",
+        "mimetype": "image/webp",
+        "height": 64,
+        "width": 64,
+        "directPath": "/v/t62.fake/sticker.enc",
+        "fileLength": "369638",
+        "mediaKeyTimestamp": "1795745390",
+        "firstFrameLength": 369412,
+        "firstFrameSidecar": "IiIiIiIiIiIiIg==",
+        "isAnimated": true,
+        "stickerSentTS": "1795745390527",
+        "isAvatar": false,
+        "isAiSticker": false,
+        "isLottie": false,
+        "accessibilityLabel": "",
+        "premium": 0
+      }
+    }
+  }
+}
